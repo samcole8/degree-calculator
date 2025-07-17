@@ -1,5 +1,9 @@
 ## degree-calculator
 
+[![Release](https://img.shields.io/github/v/release/samcole8/degree-calculator)](https://github.com/samcole8/degree-calculator/releases/latest)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Repo Size](https://img.shields.io/github/repo-size/samcole8/degree-calculator)
+
 A Python-based degree award calculator with some useful (and some questionably useful) statistics.
 
 ![Histogram showing simulated grade distribution](resources/final_grade_distribution.png)
