@@ -11,10 +11,11 @@ import statistics
 
 
 def classify(grade: float, classifications: list[dict]) -> str:
-    sorted_classifications = sorted(classifications, key=lambda c: c["threshold"], reverse=True)
-    for classification in sorted_classifications:
-        if grade >= classification["threshold"]:
-            return f"{grade:.2f} ({classification["name"]})"
+    if classifications:
+        sorted_classifications = sorted(classifications, key=lambda c: c["threshold"], reverse=True)
+        for classification in sorted_classifications:
+            if grade >= classification["threshold"]:
+                return f"{grade:.2f} ({classification["name"]})"
     return f"{grade:.2f}"
 
 @contextmanager
