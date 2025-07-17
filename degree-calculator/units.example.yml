@@ -1,0 +1,20 @@
+units:
+  - name: Unit/module title
+    credits: XX  # e.g., 20, 30, 60
+    assessments:
+      - name: Group work
+        weight: 40
+        mark: null  # replace with a number (0–100) when marked
+      - name: Individual work
+        weight: 60
+        mark: null
+
+classifications:
+  - name: distinction
+    threshold: 70 # inclusive grade boundary (0-100)
+  - name: merit
+    threshold: 60
+  - name: pass
+    threshold: 50
+  - name: fail
+    threshold: 0
